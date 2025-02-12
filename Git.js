@@ -31,7 +31,9 @@ const getUser=async(username)=>{
 
                 </div>
             </div>
-        </div> `;
+        </div> 
+        <div class="owner"> @@KhushiAgarwal</div>
+        `;
         if (main) {
             main.innerHTML = card;
             getRepo(username);
